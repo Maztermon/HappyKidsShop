@@ -82,6 +82,7 @@ const Slider = () => {
       <Arrow dirction="right" onClick={() => handleClick("right")}>
         <ArrowRightOutlined />
       </Arrow>
+      
     </Container>
   )
 }

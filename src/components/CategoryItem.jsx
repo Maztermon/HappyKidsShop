@@ -9,8 +9,8 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-width: 206px;
-height: 206px;
+width: 295px;
+height: 180px;
 object-fit: cover;
 object-position: 50% 50%;
   
@@ -19,7 +19,7 @@ object-position: 50% 50%;
 
 const Info = styled.div`
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -30,15 +30,21 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
-    color:gray;
+    color:#F494949;
+    margin-bottom: 10px;
+`;
+
+const Price = styled.h3`
+    color:#F494949;
     margin-bottom: 10px;
 `;
 
 const Button = styled.button`
-    border:none;
-    padding: 10px;
+    border-style: solid;
+    padding: 15px;
+    margin: 10px;
     background-color: white;
-    color:gray;
+    color: #F494949;
     cursor: pointer;
     font-weight: 600;
 `;
@@ -49,7 +55,8 @@ const CategoryItem = ({ item }) => {
       <Image src={item.img} />
       <Info>
         <Title>{item.title}</Title>
-        <Button>SHOP NOW</Button>
+        <Price>{item.price}</Price>
+        <Button>Add to Cart</Button>
       </Info>
     </Container>
   );
