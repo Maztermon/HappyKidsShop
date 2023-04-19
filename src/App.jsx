@@ -5,12 +5,12 @@ import OurStory from "./pages/OurStory"
 import Product from "./pages/Product"
 import ProductList from "./pages/ProductList"
 import Register from "./pages/Register"
+import Contact from "./pages/Contact"
 
 const App = () => {
 
   return (
-    <OurStory />
-    
+    <Home />    
   )
 }
 
