@@ -2,7 +2,7 @@ import { AccountCircleOutlined, ShoppingCartOutlined } from '@mui/icons-material
 import { Badge } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components'
-
+import { Outlet, Link } from "react-router-dom";
 
 const Container = styled.div`
 
@@ -49,20 +49,20 @@ const Navbar = () => {
       <Center>
           <Logo>Happy Kids</Logo>
       <Barmenu>
-        <MenuItem>Home</MenuItem>
-        <MenuItem>Shop Collection</MenuItem>
-        <MenuItem>Our Story</MenuItem>
-        <MenuItem>Contact</MenuItem>
-        <MenuItem>
+      <Link to="/"><MenuItem>Home</MenuItem></Link>
+      <Link to="/products"><MenuItem>Shop Collection</MenuItem></Link>
+      <Link to="/ourStory"><MenuItem>Our Story</MenuItem></Link>
+      <Link to="/contact"><MenuItem>Contact</MenuItem></Link>
+      <Link to="/login"><MenuItem>
           <AccountCircleOutlined />
             Log in
-        </MenuItem>
-        <MenuItem>Register</MenuItem>
-        <MenuItem>
-          <Badge badgeContent={4} color="primary">
+        </MenuItem></Link>
+        <Link to="/register"><MenuItem>Register</MenuItem></Link>
+        <Link to="/cart"><MenuItem>
+        <Badge badgeContent={4} color="primary">
             <ShoppingCartOutlined />
           </Badge>
-        </MenuItem>
+        </MenuItem></Link>
       </Barmenu>
       </Center>
       </Wrapper>
