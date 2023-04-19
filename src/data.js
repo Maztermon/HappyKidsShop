@@ -105,3 +105,79 @@ export const categories = [
       }
 
 ]
+
+export const productlist = [
+  {
+      id: 1,
+      img: Product1,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 2,
+      img: Product2,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 3,
+      img: Product3,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 4,
+      img: Product4,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 5,
+      img: Product5,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 6,
+      img: Product6,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 7,
+      img: Product7,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 8,
+      img: Product8,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 9,
+      img: Product9,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 10,
+      img: Product10,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 11,
+      img: Product11,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    },
+    {
+      id: 12,
+      img: Product12,
+      title: "Kid Shirt!",
+      price: "350 ฿",
+    }
+
+]
